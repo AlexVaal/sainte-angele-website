@@ -1,0 +1,17 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.85">
+    <rect x="322" y="110" width="76" height="500" rx="28" fill="url(#crossStem)"/>
+    <rect x="170" y="258" width="380" height="76" rx="28" fill="url(#crossBeam)"/>
+  </g>
+  <defs>
+    <linearGradient id="crossStem" x1="360" y1="110" x2="360" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8BEA3"/>
+      <stop offset="1" stop-color="#F6EBDD" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="crossBeam" x1="170" y1="296" x2="550" y2="296" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6EBDD" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#D4B496"/>
+      <stop offset="1" stop-color="#F6EBDD" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+</svg>
