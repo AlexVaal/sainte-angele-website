@@ -114,14 +114,14 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Featured event",
-          title: "Fête de Dieu",
-          date: "June 7",
-          time: "Bilingual Mass at 10:00 AM",
+          title: "Fête de Marie",
+          date: "Saturday, August 15, 2026",
+          time: "To be confirmed",
           description:
-            "Join the parish for a bilingual Mass celebration at Sainte-Angèle, with a procession in the parking lot to be confirmed.",
+            "Join us as we celebrate the Feast of Mary with prayer, community, and a special Marian procession. All parishioners and visitors are welcome.",
           cta: "Open the events page",
           image: {
-            src: "/home/featured-event.jpg",
+            src: "/home/featured-event-mary.jpg",
             alt: "Parish celebration image for the featured event",
           },
         },
@@ -403,30 +403,13 @@ export const siteContent = {
     },
     events: [
       {
-        title: "Pentecost Vigil",
-        date: "Saturday, May 23",
-        time: "7:00 PM",
-        location: "Église Sainte-Angèle",
-        description: "Special Pentecost Vigil celebration at Sainte-Angèle Church.",
-        notes: [],
-      },
-      {
-        title: "Forum International des Leaders Charismatiques 2026",
-        date: "June 5 to June 7",
+        title: "Fête de Marie",
+        date: "Saturday, August 15, 2026",
         time: "To be confirmed",
-        location: "Cathédrale Marie-Reine-du-Monde",
-        description: "International charismatic leadership gathering.",
-        notes: [
-          "Bus transportation may be organized depending on participation after Mass on June 7. See the parish priest for more information.",
-        ],
-      },
-      {
-        title: "Fête de Dieu",
-        date: "June 7",
-        time: "10:00 AM",
         location: "Église Sainte-Angèle",
-        description: "Bilingual Mass celebration.",
-        notes: ["Procession in the parking lot to be confirmed."],
+        description:
+          "Join us as we celebrate the Feast of Mary with prayer, community, and a special Marian procession. All parishioners and visitors are welcome.",
+        notes: [],
       },
       {
         title: "Parish Garage Sale",
@@ -435,14 +418,6 @@ export const siteContent = {
         location: "Église Sainte-Angèle",
         description: "Upcoming parish garage sale. More details to come.",
         notes: [],
-      },
-      {
-        title: "Fête de Marie",
-        date: "Saturday, August 15",
-        time: "To be confirmed",
-        location: "Église Sainte-Angèle",
-        description: "Celebration in honor of Mary.",
-        notes: ["Procession with the statue of Mary in the parking lot to be confirmed."],
       },
     ],
     eventsPage: {
@@ -781,14 +756,14 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Événement vedette",
-          title: "Fête de Dieu",
-          date: "7 juin",
-          time: "Messe bilingue à 10 h",
+          title: "Fête de Marie",
+          date: "Samedi 15 août 2026",
+          time: "À confirmer",
           description:
-            "Joignez-vous à la paroisse pour une messe bilingue à Sainte-Angèle, avec une procession dans le stationnement à confirmer.",
+            "Joignez-vous à nous pour célébrer la Fête de Marie avec un temps de prière, de rassemblement et une procession mariale spéciale. Tous sont les bienvenus.",
           cta: "Ouvrir la page des événements",
           image: {
-            src: "/home/featured-event.jpg",
+            src: "/home/featured-event-mary.jpg",
             alt: "Image de célébration paroissiale pour l'événement vedette",
           },
         },
@@ -1070,30 +1045,13 @@ export const siteContent = {
     },
     events: [
       {
-        title: "Veillée de la Pentecôte",
-        date: "Samedi 23 mai",
-        time: "19 h",
-        location: "Église Sainte-Angèle",
-        description: "Célébration spéciale de la vigile de la Pentecôte à l'Église Sainte-Angèle.",
-        notes: [],
-      },
-      {
-        title: "Forum International des Leaders Charismatiques 2026",
-        date: "Du 5 au 7 juin",
+        title: "Fête de Marie",
+        date: "Samedi 15 août 2026",
         time: "À confirmer",
-        location: "Cathédrale Marie-Reine-du-Monde",
-        description: "Rassemblement international des leaders charismatiques.",
-        notes: [
-          "Le transport en autobus pourrait être organisé selon la participation après la messe du 7 juin. Voir le curé pour plus d'information.",
-        ],
-      },
-      {
-        title: "Fête de Dieu",
-        date: "7 juin",
-        time: "10 h",
         location: "Église Sainte-Angèle",
-        description: "Célébration d'une messe bilingue.",
-        notes: ["Procession dans le stationnement à confirmer."],
+        description:
+          "Joignez-vous à nous pour célébrer la Fête de Marie avec un temps de prière, de rassemblement et une procession mariale spéciale. Tous sont les bienvenus.",
+        notes: [],
       },
       {
         title: "Vente de garage paroissiale",
@@ -1102,14 +1060,6 @@ export const siteContent = {
         location: "Église Sainte-Angèle",
         description: "Vente de garage paroissiale à venir. Plus de détails suivront.",
         notes: [],
-      },
-      {
-        title: "Fête de Marie",
-        date: "Samedi 15 août",
-        time: "À confirmer",
-        location: "Église Sainte-Angèle",
-        description: "Célébration en l'honneur de Marie.",
-        notes: ["Procession avec la statue de Marie dans le stationnement à confirmer."],
       },
     ],
     eventsPage: {

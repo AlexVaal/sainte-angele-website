@@ -110,14 +110,14 @@ export const itContent = {
       description: "",
       featured: {
         eyebrow: "Evento in evidenza",
-        title: "Festa del Corpus Domini",
-        date: "June 7",
-        time: "Messa bilingue alle 10:00 AM",
+        title: "Festa di Maria",
+        date: "Sabato 15 agosto 2026",
+        time: "Da confermare",
         description:
-          "Unisciti alla parrocchia per una celebrazione bilingue a Sainte-Angèle, con una processione nel parcheggio da confermare.",
+          "Unitevi a noi per celebrare la Festa di Maria con un momento di preghiera, comunità e una speciale processione mariana. Tutti sono benvenuti.",
         cta: "Apri la pagina degli eventi",
         image: {
-          src: "/home/featured-event.jpg",
+          src: "/home/featured-event-mary.jpg",
           alt: "Immagine di una celebrazione parrocchiale per l'evento in evidenza",
         },
       },
@@ -399,30 +399,13 @@ export const itContent = {
   },
   events: [
     {
-      title: "Veglia di Pentecoste",
-      date: "Saturday, May 23",
-      time: "7:00 PM",
+      title: "Festa di Maria",
+      date: "Sabato 15 agosto 2026",
+      time: "Da confermare",
       location: "Église Sainte-Angèle",
-      description: "Celebrazione speciale della Veglia di Pentecoste presso la chiesa Sainte-Angèle.",
+      description:
+        "Unitevi a noi per celebrare la Festa di Maria con un momento di preghiera, comunità e una speciale processione mariana. Tutti sono benvenuti.",
       notes: [],
-    },
-    {
-      title: "Forum International des Leaders Charismatiques 2026",
-      date: "June 5 to June 7",
-      time: "To be confirmed",
-      location: "Cathédrale Marie-Reine-du-Monde",
-      description: "Incontro internazionale dei leader carismatici.",
-      notes: [
-        "Il trasporto in autobus potrà essere organizzato in base alla partecipazione dopo la Messa del 7 giugno. Rivolgersi al parroco per ulteriori informazioni.",
-      ],
-    },
-    {
-      title: "Festa del Corpus Domini",
-      date: "June 7",
-      time: "10:00 AM",
-      location: "Église Sainte-Angèle",
-      description: "Celebrazione di una Messa bilingue.",
-      notes: ["Processione nel parcheggio da confermare."],
     },
     {
       title: "Vendita di garage parrocchiale",
@@ -431,14 +414,6 @@ export const itContent = {
       location: "Église Sainte-Angèle",
       description: "Prossima vendita di garage parrocchiale. Maggiori dettagli seguiranno.",
       notes: [],
-    },
-    {
-      title: "Festa di Maria",
-      date: "Saturday, August 15",
-      time: "To be confirmed",
-      location: "Église Sainte-Angèle",
-      description: "Celebrazione in onore di Maria.",
-      notes: ["Processione con la statua di Maria nel parcheggio da confermare."],
     },
   ],
   eventsPage: {
