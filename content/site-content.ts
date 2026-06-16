@@ -600,13 +600,13 @@ export const siteContent = {
     },
     contact: {
       eyebrow: "Get in touch",
-      title: "Help visitors contact the church with confidence",
+      title: "Contact Sainte-Angèle Parish",
       description:
-        "This page is intentionally simple and clear so newcomers can find the essentials quickly and know what to expect.",
+        "For questions about Mass times, parish activities, hall rental, donations, or general information, please contact the parish office.",
       details: {
         eyebrow: "Church details",
-        title: "Everything a first-time visitor needs",
-        description: "Contact cards are a clean way to present the basics without overwhelming people.",
+        title: "Parish Contact Information",
+        description: "You can reach the parish by phone or email during office hours.",
       },
       cards: {
         address: { title: "Address", eyebrow: "Visit us" },
@@ -1250,13 +1250,13 @@ export const siteContent = {
     },
     contact: {
       eyebrow: "Nous joindre",
-      title: "Aider les visiteurs à contacter l'église simplement",
+      title: "Contacter la paroisse Sainte-Angèle",
       description:
-        "Cette page reste volontairement sobre et claire afin que les nouveaux venus trouvent rapidement l'essentiel.",
+        "Pour toute question concernant les messes, les activités paroissiales, la location de salle, les dons ou les renseignements généraux, veuillez communiquer avec le bureau paroissial.",
       details: {
         eyebrow: "Informations",
-        title: "Tout ce qu'il faut pour une première visite",
-        description: "Les cartes de contact présentent les bases avec clarté, sans surcharger la page.",
+        title: "Coordonnées de la paroisse",
+        description: "Vous pouvez joindre la paroisse par téléphone ou par courriel durant les heures de bureau.",
       },
       cards: {
         address: { title: "Adresse", eyebrow: "Venir à l'église" },

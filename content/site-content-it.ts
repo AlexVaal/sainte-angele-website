@@ -632,13 +632,13 @@ export const itContent = {
   },
   contact: {
     eyebrow: "Contattaci",
-    title: "Aiutare i visitatori a contattare la chiesa con semplicità",
+    title: "Contattare la Parrocchia Sainte-Angèle",
     description:
-      "Questa pagina rimane volutamente semplice e chiara, così chi visita per la prima volta trova subito le informazioni essenziali.",
+      "Per domande sugli orari delle Messe, le attività parrocchiali, l’affitto della sala, le donazioni o informazioni generali, si prega di contattare l’ufficio parrocchiale.",
     details: {
       eyebrow: "Informazioni",
-      title: "Tutto il necessario per una prima visita",
-      description: "Le schede di contatto presentano le informazioni essenziali con chiarezza, senza appesantire la pagina.",
+      title: "Informazioni di contatto della parrocchia",
+      description: "È possibile contattare la parrocchia per telefono o email durante gli orari d’ufficio.",
     },
     cards: {
       address: { title: "Indirizzo", eyebrow: "Raggiungere la chiesa" },
