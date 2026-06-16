@@ -4,7 +4,7 @@ export const itContent = {
     address: "5275 Boulevard Lavoisier, Montréal, Québec",
     phone: "514-321-3644",
     email: "angelemerici@videotron.ca",
-    officeHours: "Lunedì: 1:00 PM – 5:00 PM\nMartedì: 1:00 PM – 5:00 PM\nGiovedì: 1:00 PM – 5:00 PM",
+    officeHours: "Lunedì: 13:00 – 17:00\nMartedì: 13:00 – 17:00\nGiovedì: 13:00 – 17:00",
     nextGathering: {
       day: "Messe domenicali",
       time: "9:00 AM (Italiano) • 11:00 AM (Francese)",
@@ -442,47 +442,47 @@ export const itContent = {
   schedule: [
     {
       name: "Messa domenicale",
-      time: "Sunday — 9:00 AM",
+      time: "Domenica — 9:00 AM",
       description: "Italiano",
     },
     {
       name: "Messa domenicale",
-      time: "Sunday — 11:00 AM",
+      time: "Domenica — 11:00 AM",
       description: "Francese",
     },
     {
       name: "Messa feriale",
-      time: "Monday — 7:00 PM",
+      time: "Lunedì — 7:00 PM",
       description: "Italiano",
     },
     {
       name: "Messa feriale",
-      time: "Tuesday — 8:30 AM",
+      time: "Martedì — 8:30 AM",
       description: "Francese",
     },
     {
       name: "Messa feriale",
-      time: "Wednesday — 7:00 PM",
+      time: "Mercoledì — 7:00 PM",
       description: "Italiano",
     },
     {
       name: "Messa feriale",
-      time: "Thursday — 8:30 AM",
+      time: "Giovedì — 8:30 AM",
       description: "Francese",
     },
     {
       name: "Messa feriale",
-      time: "Friday — 8:30 AM",
+      time: "Venerdì — 8:30 AM",
       description: "Italiano",
     },
     {
       name: "Messa prefestiva",
-      time: "Saturday — 4:00 PM",
+      time: "Sabato — 4:00 PM",
       description: "Italiano",
     },
     {
       name: "Messa prefestiva",
-      time: "Saturday — 5:00 PM",
+      time: "Sabato — 5:00 PM",
       description: "Francese",
     },
   ],
@@ -645,34 +645,6 @@ export const itContent = {
       phone: { title: "Telefono", eyebrow: "Chiamare l'ufficio" },
       email: { title: "Email", eyebrow: "Contatto parrocchiale" },
       office: { title: "Orari dell'ufficio", eyebrow: "Pianificare" },
-    },
-    visit: {
-      eyebrow: "Prima di venire",
-      title: "Alcuni riferimenti utili",
-      description:
-        "Questa sezione può in futuro accogliere informazioni su parcheggio, accessibilità, trasporto, famiglie o un modulo di contatto.",
-      items: [
-        {
-          eyebrow: "Parcheggio",
-          title: "Un arrivo semplice",
-          description: "Uno spazio da usare in futuro per note sul parcheggio nelle vicinanze, l'ingresso principale o la zona di discesa.",
-        },
-        {
-          eyebrow: "Accessibilità",
-          title: "Un accesso attento",
-          description: "Uno spazio da usare in futuro per informazioni su rampe, posti accessibili, supporto uditivo o altre necessità.",
-        },
-        {
-          eyebrow: "Famiglie",
-          title: "Un'atmosfera accogliente",
-          description: "Uno spazio da usare in futuro per note sui bambini, sugli spazi tranquilli e sulla partecipazione delle famiglie.",
-        },
-        {
-          eyebrow: "Domande",
-          title: "Un riscontro cordiale",
-          description: "Uno spazio da usare in futuro per tempi di risposta, accoglienza in ufficio o un futuro modulo di contatto.",
-        },
-      ],
     },
   },
 } as const;

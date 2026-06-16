@@ -614,34 +614,6 @@ export const siteContent = {
         email: { title: "Email", eyebrow: "Parish contact" },
         office: { title: "Office hours", eyebrow: "Plan ahead" },
       },
-      visit: {
-        eyebrow: "Before you come",
-        title: "Helpful visiting notes",
-        description:
-          "Use this section later for parking, accessibility, public transit, children's ministry, or contact form instructions.",
-        items: [
-          {
-            eyebrow: "Parking",
-            title: "Simple arrival",
-            description: "A placeholder note for nearby parking, entrance access, or drop-off information.",
-          },
-          {
-            eyebrow: "Accessibility",
-            title: "Thoughtful access",
-            description: "A placeholder note for ramps, seating, hearing support, or other accommodations.",
-          },
-          {
-            eyebrow: "Families",
-            title: "Welcoming atmosphere",
-            description: "A placeholder note for children, quiet spaces, and what family participation looks like.",
-          },
-          {
-            eyebrow: "Questions",
-            title: "Friendly follow-up",
-            description: "A placeholder note for response time, office contact flow, or a future contact form.",
-          },
-        ],
-      },
     },
   },
   fr: {
@@ -650,7 +622,7 @@ export const siteContent = {
       address: "5275 Boulevard Lavoisier, Montréal, Québec",
       phone: "514-321-3644",
       email: "angelemerici@videotron.ca",
-      officeHours: "Lundi : 13 h 00 – 17 h 00\nMardi : 13 h 00 – 17 h 00\nJeudi : 13 h 00 – 17 h 00",
+      officeHours: "Lundi : 13 h – 17 h\nMardi : 13 h – 17 h\nJeudi : 13 h – 17 h",
       nextGathering: {
         day: "Messes du dimanche",
         time: "9 h (italien) • 11 h (français)",
@@ -1291,34 +1263,6 @@ export const siteContent = {
         phone: { title: "Téléphone", eyebrow: "Appeler le bureau" },
         email: { title: "Courriel", eyebrow: "Contact paroissial" },
         office: { title: "Heures du bureau", eyebrow: "Planifier" },
-      },
-      visit: {
-        eyebrow: "Avant de venir",
-        title: "Quelques repères utiles",
-        description:
-          "Utilisez cette section plus tard pour le stationnement, l'accessibilité, le transport, les enfants ou un formulaire de contact.",
-        items: [
-          {
-            eyebrow: "Stationnement",
-            title: "Une arrivée simple",
-            description: "Une note provisoire pour le stationnement à proximité, l'entrée principale ou le débarcadère.",
-          },
-          {
-            eyebrow: "Accessibilité",
-            title: "Un accès attentif",
-            description: "Une note provisoire pour les rampes, les places adaptées, l'aide auditive ou d'autres besoins.",
-          },
-          {
-            eyebrow: "Familles",
-            title: "Une atmosphère accueillante",
-            description: "Une note provisoire sur la place des enfants, les espaces calmes et la participation en famille.",
-          },
-          {
-            eyebrow: "Questions",
-            title: "Un suivi bienveillant",
-            description: "Une note provisoire sur le délai de réponse, l'accueil au bureau ou un futur formulaire.",
-          },
-        ],
       },
     },
   },

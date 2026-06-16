@@ -54,26 +54,6 @@ export default async function ContactPage({
           <InfoCard title={contact.cards.office.title} eyebrow={contact.cards.office.eyebrow} description={site.officeHours} />
         </div>
       </PageSection>
-
-      <PageSection>
-        <div className="glass-panel section-card grid gap-6 px-6 py-8 sm:px-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <p className="eyebrow">{contact.visit.eyebrow}</p>
-            <h2 className="mt-4 text-3xl text-[var(--wood-deep)]">{contact.visit.title}</h2>
-            <p className="mt-3 text-base leading-7 text-[var(--muted)]">{contact.visit.description}</p>
-          </div>
-          <div className="grid gap-4 md:grid-cols-2">
-            {contact.visit.items.map((item) => (
-              <InfoCard
-                key={item.title}
-                title={item.title}
-                eyebrow={item.eyebrow}
-                description={item.description}
-              />
-            ))}
-          </div>
-        </div>
-      </PageSection>
     </div>
   );
 }

@@ -26,7 +26,7 @@ export function SiteFooter({
             </p>
             <p>{site.phone}</p>
             <p>{site.email}</p>
-            <p>{site.officeHours}</p>
+            <p className="whitespace-pre-line">{site.officeHours}</p>
           </div>
           <div className="space-y-2">
             <p className="font-semibold uppercase tracking-[0.14em] text-[var(--wood-soft)]">

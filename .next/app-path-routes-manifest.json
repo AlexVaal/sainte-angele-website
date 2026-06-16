@@ -1,0 +1,14 @@
+{
+  "/[lang]/about/page": "/[lang]/about",
+  "/[lang]/contact/page": "/[lang]/contact",
+  "/[lang]/donate/page": "/[lang]/donate",
+  "/[lang]/events/page": "/[lang]/events",
+  "/[lang]/hall-rental/page": "/[lang]/hall-rental",
+  "/[lang]/page": "/[lang]",
+  "/[lang]/sermons/page": "/[lang]/sermons",
+  "/[lang]/team/page": "/[lang]/team",
+  "/[lang]/volunteer/page": "/[lang]/volunteer",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/page": "/"
+}
