@@ -288,7 +288,7 @@ export const itContent = {
           {
             name: "Nick Sbarra",
             role: "Fabbriciere",
-            photo: "/team/placeholder.jpg",
+            photo: "/team/nick-sbarra.jpg",
           },
           {
             name: "Vincent Poulin",

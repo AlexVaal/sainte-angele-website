@@ -20,6 +20,7 @@ export function ButtonLink({
   className = "",
   target,
   rel,
+  onClick,
 }: {
   href: string;
   children: React.ReactNode;
@@ -27,12 +28,14 @@ export function ButtonLink({
   className?: string;
   target?: string;
   rel?: string;
+  onClick?: React.MouseEventHandler<HTMLAnchorElement>;
 }) {
   return (
     <Link
       href={href}
       target={target}
       rel={rel}
+      onClick={onClick}
       className={`inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold tracking-[0.08em] uppercase ${variantClasses[variant]} ${className}`}
     >
       {children}

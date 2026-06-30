@@ -292,7 +292,7 @@ export const siteContent = {
             {
               name: "Nick Sbarra",
               role: "Church Warden",
-              photo: "/team/placeholder.jpg",
+              photo: "/team/nick-sbarra.jpg",
             },
             {
               name: "Vincent Poulin",
@@ -906,7 +906,7 @@ export const siteContent = {
             {
               name: "Nick Sbarra",
               role: "Marguillier",
-              photo: "/team/placeholder.jpg",
+              photo: "/team/nick-sbarra.jpg",
             },
             {
               name: "Vincent Poulin",

@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useRef } from "react";
 import { ButtonLink } from "@/components/button-link";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { buildLocalizedHref, type Dictionary, type Locale } from "@/lib/i18n";
@@ -11,11 +14,19 @@ export function SiteHeader({
   dictionary: Dictionary;
 }) {
   const { navigation, site, common } = dictionary;
+  const menuToggleRef = useRef<HTMLInputElement>(null);
+
+  const closeMobileMenu = () => {
+    if (menuToggleRef.current) {
+      menuToggleRef.current.checked = false;
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-[rgba(109,79,61,0.08)] bg-[rgba(247,241,232,0.86)] backdrop-blur-xl">
       <div className="site-shell relative z-50 flex flex-col gap-4 py-4 lg:flex-row lg:items-center lg:justify-between">
         <input
+          ref={menuToggleRef}
           id="mobile-navigation-toggle"
           type="checkbox"
           className="mobile-navigation-toggle sr-only"
@@ -23,13 +34,13 @@ export function SiteHeader({
         />
 
         <div className="header-row flex items-center justify-between gap-4">
-          <Link href={`/${lang}`} className="space-y-1">
+          <Link href={`/${lang}`} className="space-y-1" onClick={closeMobileMenu}>
             <p className="text-2xl text-[var(--wood-deep)]">{site.name}</p>
             <p className="text-xs uppercase tracking-[0.16em] text-[var(--wood-soft)]">{site.address}</p>
           </Link>
 
           <div className="flex shrink-0 items-center gap-3 lg:hidden">
-            <LanguageSwitcher currentLocale={lang} />
+            <LanguageSwitcher currentLocale={lang} onNavigate={closeMobileMenu} />
             <label
               htmlFor="mobile-navigation-toggle"
               role="button"
@@ -63,6 +74,7 @@ export function SiteHeader({
                   key={item.href}
                   href={buildLocalizedHref(item.href || "/", lang)}
                   className="nav-link"
+                  onClick={closeMobileMenu}
                 >
                   {item.label}
                 </Link>
@@ -71,9 +83,11 @@ export function SiteHeader({
 
             <div className="flex items-center gap-3">
               <div className="hidden lg:block">
-                <LanguageSwitcher currentLocale={lang} />
+                <LanguageSwitcher currentLocale={lang} onNavigate={closeMobileMenu} />
               </div>
-              <ButtonLink href={`/${lang}/donate`}>{common.donateNow}</ButtonLink>
+              <ButtonLink href={`/${lang}/donate`} onClick={closeMobileMenu}>
+                {common.donateNow}
+              </ButtonLink>
             </div>
           </div>
         </div>

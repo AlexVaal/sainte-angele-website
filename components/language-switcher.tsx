@@ -18,7 +18,13 @@ function getLocalizedPath(pathname: string, nextLocale: Locale) {
   return buildLocalizedHref(`/${segments.join("/")}`, nextLocale);
 }
 
-export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
+export function LanguageSwitcher({
+  currentLocale,
+  onNavigate,
+}: {
+  currentLocale: Locale;
+  onNavigate?: () => void;
+}) {
   const pathname = usePathname();
 
   return (
@@ -30,6 +36,7 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
           <Link
             key={locale}
             href={getLocalizedPath(pathname, locale)}
+            onClick={onNavigate}
             className={`rounded-full px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] ${
               isActive
                 ? "bg-[var(--wood)] text-white"
