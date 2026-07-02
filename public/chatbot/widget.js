@@ -135,12 +135,28 @@
     if (el) container.removeChild(el);
   }
 
+  function detectLanguage(allContent) {
+    const path = window.location.pathname.toLowerCase();
+    const segments = path.split("/").filter(Boolean); // e.g. ["fr", "about"]
+    const first = segments[0];
+    if (first && allContent[first]) return first;
+
+    // Fallback: check the <html lang="..."> attribute
+    const htmlLang = (document.documentElement.lang || "").slice(0, 2).toLowerCase();
+    if (htmlLang && allContent[htmlLang]) return htmlLang;
+
+    return "en"; // default
+  }
+
   function init() {
-    const content = window.SAINTE_ANGELE_CONTENT;
-    if (!content) {
+    const allContent = window.SAINTE_ANGELE_CONTENT;
+    if (!allContent) {
       console.error("Sainte-Angèle chatbot: content.js not loaded.");
       return;
     }
+
+    const lang = detectLanguage(allContent);
+    const content = allContent[lang] || allContent.en;
 
     const root = buildWidget(content);
     const toggleBtn = root.querySelector("#sa-chat-toggle");
