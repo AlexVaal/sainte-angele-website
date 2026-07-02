@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-scroll-behavior="smooth">
-      <body>{children}</body>
+      <body>
+        {children}
+
+        <link rel="stylesheet" href="/chatbot/widget.css" />
+        <Script src="/chatbot/content.js" strategy="beforeInteractive" />
+        <Script src="/chatbot/widget.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }
