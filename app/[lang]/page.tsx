@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { AnnouncementBanner } from "@/components/announcement-banner";
 import { ButtonLink } from "@/components/button-link";
 import { HomeFeatureCard } from "@/components/home-feature-card";
 import { InfoCard } from "@/components/info-card";
@@ -44,6 +45,12 @@ export default async function HomePage({
 
   return (
     <div className="site-shell space-y-8 sm:space-y-10">
+      <AnnouncementBanner
+        eyebrow={home.announcements.eyebrow}
+        title={home.announcements.title}
+        items={home.announcements.items}
+      />
+
       <section className="glass-panel section-card hero-surface cross-hero overflow-hidden px-6 py-8 fade-up sm:px-10 sm:py-12 lg:px-14 lg:py-16">
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
           <div className="space-y-6">

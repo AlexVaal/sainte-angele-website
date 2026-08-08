@@ -60,6 +60,24 @@ export const itContent = {
         { href: "/contact", label: "Contatta la parrocchia", variant: "secondary" },
       ],
     },
+    announcements: {
+      eyebrow: "Avvisi",
+      title: "Cambiamenti nell'orario delle Messe",
+      items: [
+        {
+          date: "Sab. 15 agosto",
+          text: "Messa bilingue alle 15:00, seguita da una processione e dalla consacrazione con la statua della Santa Vergine.",
+        },
+        {
+          date: "17 ago – 24 set",
+          text: "Nessuna Messa feriale. Le Messe domenicali restano invariate: ore 9:00 (italiano) e ore 11:00 (francese).",
+        },
+        {
+          date: "Dom. 27 set.",
+          text: "Un'unica Messa bilingue alle 10:00 con la benedizione della nuova croce; segue il pranzo.",
+        },
+      ],
+    },
     sections: {
       eyebrow: "Esplora",
       title: "Trova il tuo posto nella vita della parrocchia",
@@ -110,11 +128,11 @@ export const itContent = {
       description: "",
       featured: {
         eyebrow: "Evento in evidenza",
-        title: "Festa di Maria",
+        title: "Solennità dell'Assunzione della Beata Vergine Maria",
         date: "Sabato 15 agosto 2026",
-        time: "Da confermare",
+        time: "Ore 15:00",
         description:
-          "Unitevi a noi per celebrare la Festa di Maria con un momento di preghiera, comunità e una speciale processione mariana. Tutti sono benvenuti.",
+          "Messa bilingue per la Solennità dell'Assunzione, seguita da una processione e dalla consacrazione con la statua della Santa Vergine. Tutti sono benvenuti.",
         cta: "Apri la pagina degli eventi",
         image: {
           src: "/home/featured-event-mary.jpg",
@@ -399,20 +417,49 @@ export const itContent = {
   },
   events: [
     {
-      title: "Festa di Maria",
+      title: "Solennità dell'Assunzione della Beata Vergine Maria",
       date: "Sabato 15 agosto 2026",
-      time: "Da confermare",
+      time: "Ore 15:00",
       location: "Église Sainte-Angèle",
       description:
-        "Unitevi a noi per celebrare la Festa di Maria con un momento di preghiera, comunità e una speciale processione mariana. Tutti sono benvenuti.",
-      notes: [],
+        "Messa bilingue per la Solennità dell'Assunzione, seguita da una processione e dalla consacrazione con la statua della Santa Vergine.",
+      notes: [
+        "Messa bilingue alle 15:00",
+        "Processione e consacrazione con la statua della Santa Vergine dopo la Messa",
+      ],
     },
     {
-      title: "Vendita di garage parrocchiale",
-      date: "To be confirmed",
-      time: "To be confirmed",
+      title: "Nessuna Messa feriale dal 17 agosto al 24 settembre",
+      date: "17 agosto – 24 settembre 2026",
+      time: "—",
       location: "Église Sainte-Angèle",
-      description: "Prossima vendita di garage parrocchiale. Maggiori dettagli seguiranno.",
+      description:
+        "Non ci saranno Messe feriali dal 17 agosto al 24 settembre. Le Messe domenicali non sono interessate.",
+      notes: [
+        "Le Messe feriali riprenderanno venerdì 25 settembre",
+        "Le Messe domenicali restano invariate: ore 9:00 (italiano) e ore 11:00 (francese)",
+      ],
+    },
+    {
+      title: "Messa bilingue e benedizione della nuova croce",
+      date: "Domenica 27 settembre 2026",
+      time: "Ore 10:00",
+      location: "Église Sainte-Angèle",
+      description:
+        "Un'unica Messa bilingue alle 10:00, con la benedizione solenne della nuova croce all'inizio della Messa. Segue un pranzo dopo la cerimonia.",
+      notes: [
+        "Messa bilingue alle 10:00 (sostituisce le Messe abituali delle 9:00 e delle 11:00)",
+        "Benedizione solenne della nuova croce all'inizio della Messa",
+        "Pranzo dopo la cerimonia: 35$ per adulto e 20$ per bambino",
+        "Contattare Maria De Luca per prenotare",
+      ],
+    },
+    {
+      title: "Iscrizione e inizio delle lezioni di catechismo",
+      date: "Domenica 4 ottobre 2026",
+      time: "Ore 9:50",
+      location: "Église Sainte-Angèle",
+      description: "Iscrizione e inizio delle lezioni di catechismo.",
       notes: [],
     },
   ],

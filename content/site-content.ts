@@ -64,6 +64,24 @@ export const siteContent = {
           { href: "/contact", label: "Contact the parish", variant: "secondary" },
         ],
       },
+      announcements: {
+        eyebrow: "Announcements",
+        title: "Mass Schedule Changes",
+        items: [
+          {
+            date: "Sat., Aug 15",
+            text: "Bilingual Mass at 3:00 PM, followed by a procession and consecration with the statue of the Blessed Virgin Mary.",
+          },
+          {
+            date: "Aug 17 – Sept 24",
+            text: "No weekday Masses. Sunday Masses remain unchanged: 9:00 AM (Italian) and 11:00 AM (French).",
+          },
+          {
+            date: "Sun., Sept 27",
+            text: "Single bilingual Mass at 10:00 AM with the blessing of the new cross; dinner follows.",
+          },
+        ],
+      },
       sections: {
         eyebrow: "Explore",
         title: "Find your place in the life of the parish",
@@ -114,11 +132,11 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Featured event",
-          title: "Fête de Marie",
+          title: "Solemnity of the Assumption of the Blessed Virgin Mary",
           date: "Saturday, August 15, 2026",
-          time: "To be confirmed",
+          time: "3:00 PM",
           description:
-            "Join us as we celebrate the Feast of Mary with prayer, community, and a special Marian procession. All parishioners and visitors are welcome.",
+            "Bilingual Mass for the Solemnity of the Assumption, followed by a procession and consecration with the statue of the Blessed Virgin Mary. All parishioners and visitors are welcome.",
           cta: "Open the events page",
           image: {
             src: "/home/featured-event-mary.jpg",
@@ -403,20 +421,49 @@ export const siteContent = {
     },
     events: [
       {
-        title: "Fête de Marie",
+        title: "Solemnity of the Assumption of the Blessed Virgin Mary",
         date: "Saturday, August 15, 2026",
-        time: "To be confirmed",
+        time: "3:00 PM",
         location: "Église Sainte-Angèle",
         description:
-          "Join us as we celebrate the Feast of Mary with prayer, community, and a special Marian procession. All parishioners and visitors are welcome.",
-        notes: [],
+          "Bilingual Mass for the Solemnity of the Assumption, followed by a procession and consecration with the statue of the Blessed Virgin Mary.",
+        notes: [
+          "Bilingual Mass at 3:00 PM",
+          "Procession and consecration with the statue of the Blessed Virgin Mary follow the Mass",
+        ],
       },
       {
-        title: "Parish Garage Sale",
-        date: "To be confirmed",
-        time: "To be confirmed",
+        title: "No Weekday Masses, August 17 – September 24",
+        date: "August 17 – September 24, 2026",
+        time: "—",
         location: "Église Sainte-Angèle",
-        description: "Upcoming parish garage sale. More details to come.",
+        description:
+          "There will be no weekday Masses from August 17 through September 24. Sunday Masses are not affected.",
+        notes: [
+          "Weekday Masses resume Friday, September 25",
+          "Sunday Masses remain unchanged: 9:00 AM (Italian) and 11:00 AM (French)",
+        ],
+      },
+      {
+        title: "Bilingual Mass and Blessing of the New Cross",
+        date: "Sunday, September 27, 2026",
+        time: "10:00 AM",
+        location: "Église Sainte-Angèle",
+        description:
+          "A single bilingual Mass at 10:00 AM, with the solemn blessing of the new cross at the beginning of Mass. Dinner follows the ceremony.",
+        notes: [
+          "Bilingual Mass at 10:00 AM (replaces the regular 9:00 AM and 11:00 AM Masses)",
+          "Solemn blessing of the new cross at the start of Mass",
+          "Dinner follows: $35 per adult, $20 per child",
+          "Contact Maria De Luca to reserve",
+        ],
+      },
+      {
+        title: "Catechism Registration and First Class",
+        date: "Sunday, October 4, 2026",
+        time: "9:50 AM",
+        location: "Église Sainte-Angèle",
+        description: "Registration and the start of catechism classes.",
         notes: [],
       },
     ],
@@ -678,6 +725,24 @@ export const siteContent = {
           { href: "/contact", label: "Contacter la paroisse", variant: "secondary" },
         ],
       },
+      announcements: {
+        eyebrow: "Annonces",
+        title: "Changements d'horaire des messes",
+        items: [
+          {
+            date: "Sam. 15 août",
+            text: "Messe bilingue à 15 h, suivie d'une procession et d'une consécration avec la statue de la Sainte Vierge.",
+          },
+          {
+            date: "17 août – 24 sept.",
+            text: "Pas de messes en semaine. Les messes du dimanche ne changent pas : 9 h (italien) et 11 h (français).",
+          },
+          {
+            date: "Dim. 27 sept.",
+            text: "Une seule messe bilingue à 10 h avec la bénédiction de la nouvelle croix; dîner à la suite.",
+          },
+        ],
+      },
       sections: {
         eyebrow: "Explorer",
         title: "Trouver sa place dans la vie paroissiale",
@@ -728,11 +793,11 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Événement vedette",
-          title: "Fête de Marie",
+          title: "Solennité de l'Assomption de la Bienheureuse Vierge Marie",
           date: "Samedi 15 août 2026",
-          time: "À confirmer",
+          time: "15 h",
           description:
-            "Joignez-vous à nous pour célébrer la Fête de Marie avec un temps de prière, de rassemblement et une procession mariale spéciale. Tous sont les bienvenus.",
+            "Messe bilingue pour la Solennité de l'Assomption, suivie d'une procession et d'une consécration avec la statue de la Sainte Vierge. Tous sont les bienvenus.",
           cta: "Ouvrir la page des événements",
           image: {
             src: "/home/featured-event-mary.jpg",
@@ -1017,20 +1082,49 @@ export const siteContent = {
     },
     events: [
       {
-        title: "Fête de Marie",
+        title: "Solennité de l'Assomption de la Bienheureuse Vierge Marie",
         date: "Samedi 15 août 2026",
-        time: "À confirmer",
+        time: "15 h",
         location: "Église Sainte-Angèle",
         description:
-          "Joignez-vous à nous pour célébrer la Fête de Marie avec un temps de prière, de rassemblement et une procession mariale spéciale. Tous sont les bienvenus.",
-        notes: [],
+          "Messe bilingue pour la Solennité de l'Assomption, suivie d'une procession et d'une consécration avec la statue de la Sainte Vierge.",
+        notes: [
+          "Messe bilingue à 15 h",
+          "Procession et consécration avec la statue de la Sainte Vierge à la suite de la messe",
+        ],
       },
       {
-        title: "Vente de garage paroissiale",
-        date: "À confirmer",
-        time: "À confirmer",
+        title: "Pas de messes en semaine du 17 août au 24 septembre",
+        date: "17 août – 24 septembre 2026",
+        time: "—",
         location: "Église Sainte-Angèle",
-        description: "Vente de garage paroissiale à venir. Plus de détails suivront.",
+        description:
+          "Il n'y aura pas de messes en semaine du 17 août au 24 septembre. Les messes du dimanche ne sont pas touchées.",
+        notes: [
+          "Les messes en semaine reprendront le vendredi 25 septembre",
+          "Les messes du dimanche ne changent pas : 9 h (italien) et 11 h (français)",
+        ],
+      },
+      {
+        title: "Messe bilingue et bénédiction de la nouvelle croix",
+        date: "Dimanche 27 septembre 2026",
+        time: "10 h",
+        location: "Église Sainte-Angèle",
+        description:
+          "Une seule messe bilingue à 10 h, avec la bénédiction solennelle de la nouvelle croix en début de messe. Un dîner suit la cérémonie.",
+        notes: [
+          "Messe bilingue à 10 h (remplace les messes habituelles de 9 h et 11 h)",
+          "Bénédiction solennelle de la nouvelle croix en début de messe",
+          "Dîner à la suite de la cérémonie : 35 $ par adulte et 20 $ par enfant",
+          "Voir avec Maria De Luca pour réserver",
+        ],
+      },
+      {
+        title: "Inscription et début des cours de catéchèse",
+        date: "Dimanche 4 octobre 2026",
+        time: "9 h 50",
+        location: "Église Sainte-Angèle",
+        description: "Inscription et début des cours de catéchèse.",
         notes: [],
       },
     ],
