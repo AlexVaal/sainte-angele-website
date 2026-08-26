@@ -65,10 +65,6 @@ export const itContent = {
       title: "Cambiamenti nell'orario delle Messe",
       items: [
         {
-          date: "Sab. 15 agosto",
-          text: "Messa bilingue alle 15:00, seguita da una processione e dalla consacrazione con la statua della Santa Vergine.",
-        },
-        {
           date: "17 ago – 24 set",
           text: "Nessuna Messa feriale. Le Messe domenicali restano invariate: ore 9:00 (italiano) e ore 11:00 (francese).",
         },
@@ -128,11 +124,11 @@ export const itContent = {
       description: "",
       featured: {
         eyebrow: "Evento in evidenza",
-        title: "Solennità dell'Assunzione della Beata Vergine Maria",
-        date: "Sabato 15 agosto 2026",
-        time: "Ore 15:00",
+        title: "Messa bilingue e benedizione della nuova croce",
+        date: "Domenica 27 settembre 2026",
+        time: "Ore 10:00",
         description:
-          "Messa bilingue per la Solennità dell'Assunzione, seguita da una processione e dalla consacrazione con la statua della Santa Vergine. Tutti sono benvenuti.",
+          "Unitevi a noi per un'unica Messa bilingue alle 10:00, con la benedizione solenne della nuova croce all'inizio della Messa. Segue un pranzo parrocchiale dopo la cerimonia — tutti sono benvenuti.",
         cta: "Apri la pagina degli eventi",
         image: {
           src: "/home/featured-event-mary.jpg",
@@ -416,18 +412,6 @@ export const itContent = {
     },
   },
   events: [
-    {
-      title: "Solennità dell'Assunzione della Beata Vergine Maria",
-      date: "Sabato 15 agosto 2026",
-      time: "Ore 15:00",
-      location: "Église Sainte-Angèle",
-      description:
-        "Messa bilingue per la Solennità dell'Assunzione, seguita da una processione e dalla consacrazione con la statua della Santa Vergine.",
-      notes: [
-        "Messa bilingue alle 15:00",
-        "Processione e consacrazione con la statua della Santa Vergine dopo la Messa",
-      ],
-    },
     {
       title: "Nessuna Messa feriale dal 17 agosto al 24 settembre",
       date: "17 agosto – 24 settembre 2026",

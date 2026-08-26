@@ -69,10 +69,6 @@ export const siteContent = {
         title: "Mass Schedule Changes",
         items: [
           {
-            date: "Sat., Aug 15",
-            text: "Bilingual Mass at 3:00 PM, followed by a procession and consecration with the statue of the Blessed Virgin Mary.",
-          },
-          {
             date: "Aug 17 – Sept 24",
             text: "No weekday Masses. Sunday Masses remain unchanged: 9:00 AM (Italian) and 11:00 AM (French).",
           },
@@ -132,11 +128,11 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Featured event",
-          title: "Solemnity of the Assumption of the Blessed Virgin Mary",
-          date: "Saturday, August 15, 2026",
-          time: "3:00 PM",
+          title: "Bilingual Mass and Blessing of the New Cross",
+          date: "Sunday, September 27, 2026",
+          time: "10:00 AM",
           description:
-            "Bilingual Mass for the Solemnity of the Assumption, followed by a procession and consecration with the statue of the Blessed Virgin Mary. All parishioners and visitors are welcome.",
+            "Join us for a single bilingual Mass at 10:00 AM, with the solemn blessing of the new cross at the beginning of Mass. A parish dinner follows the ceremony — all are welcome.",
           cta: "Open the events page",
           image: {
             src: "/home/featured-event-mary.jpg",
@@ -420,18 +416,6 @@ export const siteContent = {
       },
     },
     events: [
-      {
-        title: "Solemnity of the Assumption of the Blessed Virgin Mary",
-        date: "Saturday, August 15, 2026",
-        time: "3:00 PM",
-        location: "Église Sainte-Angèle",
-        description:
-          "Bilingual Mass for the Solemnity of the Assumption, followed by a procession and consecration with the statue of the Blessed Virgin Mary.",
-        notes: [
-          "Bilingual Mass at 3:00 PM",
-          "Procession and consecration with the statue of the Blessed Virgin Mary follow the Mass",
-        ],
-      },
       {
         title: "No Weekday Masses, August 17 – September 24",
         date: "August 17 – September 24, 2026",
@@ -730,10 +714,6 @@ export const siteContent = {
         title: "Changements d'horaire des messes",
         items: [
           {
-            date: "Sam. 15 août",
-            text: "Messe bilingue à 15 h, suivie d'une procession et d'une consécration avec la statue de la Sainte Vierge.",
-          },
-          {
             date: "17 août – 24 sept.",
             text: "Pas de messes en semaine. Les messes du dimanche ne changent pas : 9 h (italien) et 11 h (français).",
           },
@@ -793,11 +773,11 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Événement vedette",
-          title: "Solennité de l'Assomption de la Bienheureuse Vierge Marie",
-          date: "Samedi 15 août 2026",
-          time: "15 h",
+          title: "Messe bilingue et bénédiction de la nouvelle croix",
+          date: "Dimanche 27 septembre 2026",
+          time: "10 h",
           description:
-            "Messe bilingue pour la Solennité de l'Assomption, suivie d'une procession et d'une consécration avec la statue de la Sainte Vierge. Tous sont les bienvenus.",
+            "Joignez-vous à nous pour une seule messe bilingue à 10 h, avec la bénédiction solennelle de la nouvelle croix en début de messe. Un dîner paroissial suit la cérémonie — tous sont les bienvenus.",
           cta: "Ouvrir la page des événements",
           image: {
             src: "/home/featured-event-mary.jpg",
@@ -1081,18 +1061,6 @@ export const siteContent = {
       },
     },
     events: [
-      {
-        title: "Solennité de l'Assomption de la Bienheureuse Vierge Marie",
-        date: "Samedi 15 août 2026",
-        time: "15 h",
-        location: "Église Sainte-Angèle",
-        description:
-          "Messe bilingue pour la Solennité de l'Assomption, suivie d'une procession et d'une consécration avec la statue de la Sainte Vierge.",
-        notes: [
-          "Messe bilingue à 15 h",
-          "Procession et consécration avec la statue de la Sainte Vierge à la suite de la messe",
-        ],
-      },
       {
         title: "Pas de messes en semaine du 17 août au 24 septembre",
         date: "17 août – 24 septembre 2026",
