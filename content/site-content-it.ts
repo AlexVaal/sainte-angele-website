@@ -124,11 +124,11 @@ export const itContent = {
       description: "",
       featured: {
         eyebrow: "Evento in evidenza",
-        title: "Messa bilingue e benedizione della nuova croce",
-        date: "Domenica 27 settembre 2026",
-        time: "Ore 10:00",
+        title: "Grande bazar all'aperto",
+        date: "Sabato 12 settembre 2026",
+        time: "8:00 – 16:00",
         description:
-          "Unitevi a noi per un'unica Messa bilingue alle 10:00, con la benedizione solenne della nuova croce all'inizio della Messa. Segue un pranzo parrocchiale dopo la cerimonia — tutti sono benvenuti.",
+          "Unitevi a noi per il bazar all'aperto della parrocchia, con tavoli di articoli in vendita per tutta la famiglia. Sono disponibili anche tavoli in affitto per gli espositori — contattare l'ufficio parrocchiale per prenotare.",
         cta: "Apri la pagina degli eventi",
         image: {
           src: "/home/featured-event-mary.jpg",
@@ -422,6 +422,18 @@ export const itContent = {
       notes: [
         "Le Messe feriali riprenderanno venerdì 25 settembre",
         "Le Messe domenicali restano invariate: ore 9:00 (italiano) e ore 11:00 (francese)",
+      ],
+    },
+    {
+      title: "Grande bazar all'aperto",
+      date: "Sabato 12 settembre 2026",
+      time: "8:00 – 16:00",
+      location: "Église Sainte-Angèle, 5275 Lavoisier, Saint-Léonard",
+      description:
+        "Bazar parrocchiale all'aperto con tavoli di articoli in vendita. Tutti sono benvenuti a venire a curiosare.",
+      notes: [
+        "Data di pioggia: sabato 19 settembre",
+        "Tavoli in affitto per gli espositori: 25$ — chiamare il 514-321-3644 per prenotare",
       ],
     },
     {

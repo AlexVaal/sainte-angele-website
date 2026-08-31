@@ -128,11 +128,11 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Featured event",
-          title: "Bilingual Mass and Blessing of the New Cross",
-          date: "Sunday, September 27, 2026",
-          time: "10:00 AM",
+          title: "Grand Outdoor Bazaar",
+          date: "Saturday, September 12, 2026",
+          time: "8:00 AM – 4:00 PM",
           description:
-            "Join us for a single bilingual Mass at 10:00 AM, with the solemn blessing of the new cross at the beginning of Mass. A parish dinner follows the ceremony — all are welcome.",
+            "Join us for the parish's outdoor bazaar, with tables of items for sale for the whole family. Tables are also available to rent for vendors — call the parish office to reserve.",
           cta: "Open the events page",
           image: {
             src: "/home/featured-event-mary.jpg",
@@ -426,6 +426,18 @@ export const siteContent = {
         notes: [
           "Weekday Masses resume Friday, September 25",
           "Sunday Masses remain unchanged: 9:00 AM (Italian) and 11:00 AM (French)",
+        ],
+      },
+      {
+        title: "Grand Outdoor Bazaar",
+        date: "Saturday, September 12, 2026",
+        time: "8:00 AM – 4:00 PM",
+        location: "Église Sainte-Angèle, 5275 Lavoisier, Saint-Léonard",
+        description:
+          "Outdoor parish bazaar with tables of items for sale. Everyone is welcome to come browse and shop.",
+        notes: [
+          "Rain date: Saturday, September 19",
+          "Tables available to rent for vendors: $25 — call 514-321-3644 to reserve",
         ],
       },
       {
@@ -773,11 +785,11 @@ export const siteContent = {
         description: "",
         featured: {
           eyebrow: "Événement vedette",
-          title: "Messe bilingue et bénédiction de la nouvelle croix",
-          date: "Dimanche 27 septembre 2026",
-          time: "10 h",
+          title: "Grand bazar extérieur",
+          date: "Samedi 12 septembre 2026",
+          time: "8 h à 16 h",
           description:
-            "Joignez-vous à nous pour une seule messe bilingue à 10 h, avec la bénédiction solennelle de la nouvelle croix en début de messe. Un dîner paroissial suit la cérémonie — tous sont les bienvenus.",
+            "Joignez-vous à nous pour le bazar extérieur de la paroisse, avec des tables d'articles à vendre pour toute la famille. Des tables sont aussi disponibles à la location pour les exposants — communiquez avec le bureau de la paroisse pour réserver.",
           cta: "Ouvrir la page des événements",
           image: {
             src: "/home/featured-event-mary.jpg",
@@ -1071,6 +1083,18 @@ export const siteContent = {
         notes: [
           "Les messes en semaine reprendront le vendredi 25 septembre",
           "Les messes du dimanche ne changent pas : 9 h (italien) et 11 h (français)",
+        ],
+      },
+      {
+        title: "Grand bazar extérieur",
+        date: "Samedi 12 septembre 2026",
+        time: "8 h à 16 h",
+        location: "Église Sainte-Angèle, 5275 Lavoisier, Saint-Léonard",
+        description:
+          "Bazar extérieur paroissial avec des tables d'articles à vendre. Tous sont bienvenus pour venir magasiner.",
+        notes: [
+          "Date de pluie : samedi 19 septembre",
+          "Tables à louer pour les exposants : 25 $ — composez le 514-321-3644 pour réserver",
         ],
       },
       {
