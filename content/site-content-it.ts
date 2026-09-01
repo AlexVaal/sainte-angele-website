@@ -131,7 +131,7 @@ export const itContent = {
           "Unitevi a noi per il bazar all'aperto della parrocchia, con tavoli di articoli in vendita per tutta la famiglia. Sono disponibili anche tavoli in affitto per gli espositori — contattare l'ufficio parrocchiale per prenotare.",
         cta: "Apri la pagina degli eventi",
         image: {
-          src: "/home/featured-event-bazar.jpg",
+          src: "/home/featured-event-bazar-poster.jpg",
           alt: "Locandina del Grande Bazar con data, orario e luogo",
         },
       },

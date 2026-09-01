@@ -135,7 +135,7 @@ export const siteContent = {
             "Join us for the parish's outdoor bazaar, with tables of items for sale for the whole family. Tables are also available to rent for vendors — call the parish office to reserve.",
           cta: "Open the events page",
           image: {
-            src: "/home/featured-event-bazar.jpg",
+            src: "/home/featured-event-bazar-poster.jpg",
             alt: "Grand Bazar event poster with the date, time, and location details",
           },
         },
@@ -792,7 +792,7 @@ export const siteContent = {
             "Joignez-vous à nous pour le bazar extérieur de la paroisse, avec des tables d'articles à vendre pour toute la famille. Des tables sont aussi disponibles à la location pour les exposants — communiquez avec le bureau de la paroisse pour réserver.",
           cta: "Ouvrir la page des événements",
           image: {
-            src: "/home/featured-event-bazar.jpg",
+            src: "/home/featured-event-bazar-poster.jpg",
             alt: "Affiche du Grand Bazar avec la date, l'heure et le lieu",
           },
         },
