@@ -132,7 +132,7 @@ export const itContent = {
         cta: "Apri la pagina degli eventi",
         image: {
           src: "/home/featured-event-bazar.jpg",
-          alt: "Illustrazione di articoli per la casa in vendita al bazar parrocchiale",
+          alt: "Locandina del Grande Bazar con data, orario e luogo",
         },
       },
     },

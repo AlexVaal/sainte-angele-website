@@ -136,7 +136,7 @@ export const siteContent = {
           cta: "Open the events page",
           image: {
             src: "/home/featured-event-bazar.jpg",
-            alt: "Illustration of household items for sale at the parish bazaar",
+            alt: "Grand Bazar event poster with the date, time, and location details",
           },
         },
       },
@@ -793,7 +793,7 @@ export const siteContent = {
           cta: "Ouvrir la page des événements",
           image: {
             src: "/home/featured-event-bazar.jpg",
-            alt: "Illustration d'articles ménagers en vente lors du bazar paroissial",
+            alt: "Affiche du Grand Bazar avec la date, l'heure et le lieu",
           },
         },
       },
