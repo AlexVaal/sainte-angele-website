@@ -152,16 +152,6 @@ export default async function HomePage({
         />
         <div className="grid gap-4 lg:grid-cols-[1.25fr_0.75fr]">
           <article className="glass-panel section-card px-6 py-7">
-            <div className="relative mb-6 aspect-[16/7] overflow-hidden rounded-[22px] border border-[rgba(109,79,61,0.08)] bg-[linear-gradient(180deg,rgba(242,231,218,0.92),rgba(233,216,197,0.92))]">
-              <Image
-                src={featuredEventImage}
-                alt={home.events.featured.image.alt}
-                fill
-                className="object-cover object-center"
-                sizes="(min-width: 1024px) 42rem, 100vw"
-              />
-              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(244,234,221,0.12),rgba(119,89,67,0.18))]" />
-            </div>
             <span className="eyebrow">{home.events.featured.eyebrow}</span>
             <h3 className="mt-4 text-3xl text-[var(--wood-deep)] sm:text-4xl">{home.events.featured.title}</h3>
             <p className="mt-3 text-sm font-semibold uppercase tracking-[0.16em] text-[var(--wood-soft)]">
@@ -175,6 +165,16 @@ export default async function HomePage({
               <ButtonLink href={`/${lang}/events`}>{home.events.featured.cta}</ButtonLink>
             </div>
           </article>
+
+          <div className="glass-panel section-card relative min-h-[16rem] overflow-hidden p-6">
+            <Image
+              src={featuredEventImage}
+              alt={home.events.featured.image.alt}
+              fill
+              className="object-contain p-4"
+              sizes="(min-width: 1024px) 24rem, 100vw"
+            />
+          </div>
         </div>
       </PageSection>
 
