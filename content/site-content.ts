@@ -135,8 +135,8 @@ export const siteContent = {
             "Join us for the parish's outdoor bazaar, with tables of items for sale for the whole family. Tables are also available to rent for vendors — call the parish office to reserve.",
           cta: "Open the events page",
           image: {
-            src: "/home/featured-event-mary.jpg",
-            alt: "Parish celebration image for the featured event",
+            src: "/home/featured-event-bazar.jpg",
+            alt: "Illustration of household items for sale at the parish bazaar",
           },
         },
       },
@@ -792,8 +792,8 @@ export const siteContent = {
             "Joignez-vous à nous pour le bazar extérieur de la paroisse, avec des tables d'articles à vendre pour toute la famille. Des tables sont aussi disponibles à la location pour les exposants — communiquez avec le bureau de la paroisse pour réserver.",
           cta: "Ouvrir la page des événements",
           image: {
-            src: "/home/featured-event-mary.jpg",
-            alt: "Image de célébration paroissiale pour l'événement vedette",
+            src: "/home/featured-event-bazar.jpg",
+            alt: "Illustration d'articles ménagers en vente lors du bazar paroissial",
           },
         },
       },
