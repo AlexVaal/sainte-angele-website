@@ -135,7 +135,7 @@ export const siteContent = {
             "Join us for the parish's outdoor bazaar, with tables of items for sale for the whole family. Tables are also available to rent for vendors — call the parish office to reserve.",
           cta: "Open the events page",
           image: {
-            src: "/home/featured-event-bazar-poster.jpg",
+            src: "/home/featured-event-bazar-poster-v2.jpg",
             alt: "Grand Bazar event poster with the date, time, and location details",
           },
         },
@@ -437,7 +437,7 @@ export const siteContent = {
           "Outdoor parish bazaar with tables of items for sale. Everyone is welcome to come browse and shop.",
         notes: [
           "Rain date: Saturday, September 19",
-          "Tables available to rent for vendors: $25 — call 514-321-3644 to reserve",
+          "Tables available to rent for vendors: $25 — call 514-998-5485 to reserve",
         ],
       },
       {
@@ -792,7 +792,7 @@ export const siteContent = {
             "Joignez-vous à nous pour le bazar extérieur de la paroisse, avec des tables d'articles à vendre pour toute la famille. Des tables sont aussi disponibles à la location pour les exposants — communiquez avec le bureau de la paroisse pour réserver.",
           cta: "Ouvrir la page des événements",
           image: {
-            src: "/home/featured-event-bazar-poster.jpg",
+            src: "/home/featured-event-bazar-poster-v2.jpg",
             alt: "Affiche du Grand Bazar avec la date, l'heure et le lieu",
           },
         },
@@ -1094,7 +1094,7 @@ export const siteContent = {
           "Bazar extérieur paroissial avec des tables d'articles à vendre. Tous sont bienvenus pour venir magasiner.",
         notes: [
           "Date de pluie : samedi 19 septembre",
-          "Tables à louer pour les exposants : 25 $ — composez le 514-321-3644 pour réserver",
+          "Tables à louer pour les exposants : 25 $ — composez le 514-998-5485 pour réserver",
         ],
       },
       {

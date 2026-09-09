@@ -131,7 +131,7 @@ export const itContent = {
           "Unitevi a noi per il bazar all'aperto della parrocchia, con tavoli di articoli in vendita per tutta la famiglia. Sono disponibili anche tavoli in affitto per gli espositori — contattare l'ufficio parrocchiale per prenotare.",
         cta: "Apri la pagina degli eventi",
         image: {
-          src: "/home/featured-event-bazar-poster.jpg",
+          src: "/home/featured-event-bazar-poster-v2.jpg",
           alt: "Locandina del Grande Bazar con data, orario e luogo",
         },
       },
@@ -433,7 +433,7 @@ export const itContent = {
         "Bazar parrocchiale all'aperto con tavoli di articoli in vendita. Tutti sono benvenuti a venire a curiosare.",
       notes: [
         "Data di pioggia: sabato 19 settembre",
-        "Tavoli in affitto per gli espositori: 25$ — chiamare il 514-321-3644 per prenotare",
+        "Tavoli in affitto per gli espositori: 25$ — chiamare il 514-998-5485 per prenotare",
       ],
     },
     {
