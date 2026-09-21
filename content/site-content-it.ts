@@ -145,7 +145,6 @@ export const itContent = {
         { src: "/home/bazar-2026/bazar-2026-02.jpg", alt: "Portabiti allestiti sotto un gazebo blu al bazar" },
         { src: "/home/bazar-2026/bazar-2026-03.jpg", alt: "Famiglie che osservano i tavoli di articoli al bazar" },
         { src: "/home/bazar-2026/bazar-2026-04.jpg", alt: "Tavolo di un espositore con articoli esposti durante il bazar" },
-        { src: "/home/bazar-2026/bazar-2026-05.jpg", alt: "Tavolo di cibo con insalata di maccheroni e altri piatti in vendita" },
         { src: "/home/bazar-2026/bazar-2026-06.jpg", alt: "Vista ampia del parcheggio pieno di tavoli del bazar" },
         { src: "/home/bazar-2026/bazar-2026-07.jpg", alt: "Tavolo con vassoi di cibo al bazar" },
         { src: "/home/bazar-2026/bazar-2026-08.jpg", alt: "Primo piano di vassoi di cibo coperti al bazar" },
