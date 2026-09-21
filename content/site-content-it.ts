@@ -124,17 +124,42 @@ export const itContent = {
       description: "",
       featured: {
         eyebrow: "Evento in evidenza",
-        title: "Grande bazar all'aperto",
-        date: "Sabato 12 settembre 2026",
-        time: "8:00 – 16:00",
+        title: "Messa bilingue e benedizione della nuova croce",
+        date: "Domenica 27 settembre 2026",
+        time: "Ore 10:00",
         description:
-          "Unitevi a noi per il bazar all'aperto della parrocchia, con tavoli di articoli in vendita per tutta la famiglia. Sono disponibili anche tavoli in affitto per gli espositori — contattare l'ufficio parrocchiale per prenotare.",
+          "Unitevi a noi per un'unica Messa bilingue alle 10:00, con la benedizione solenne della nuova croce all'inizio della Messa. Segue un pranzo dopo la cerimonia.",
         cta: "Apri la pagina degli eventi",
         image: {
-          src: "/home/featured-event-bazar-poster-v2.jpg",
-          alt: "Locandina del Grande Bazar con data, orario e luogo",
+          src: "/home/featured-event-mary.jpg",
+          alt: "Statua della Madonna all'interno della chiesa Sainte-Angèle",
         },
       },
+    },
+    gallery: {
+      eyebrow: "Vita comunitaria",
+      title: "Il nostro ultimo bazar",
+      description: "Uno sguardo alle foto del Grande Bazar all'aperto del 12 settembre 2026.",
+      images: [
+        { src: "/home/bazar-2026/bazar-2026-01.jpg", alt: "Volontari a un tavolo di articoli in vendita al Grande Bazar all'aperto" },
+        { src: "/home/bazar-2026/bazar-2026-02.jpg", alt: "Portabiti allestiti sotto un gazebo blu al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-03.jpg", alt: "Famiglie che osservano i tavoli di articoli al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-04.jpg", alt: "Tavolo di un espositore con articoli esposti durante il bazar" },
+        { src: "/home/bazar-2026/bazar-2026-05.jpg", alt: "Tavolo di cibo con insalata di maccheroni e altri piatti in vendita" },
+        { src: "/home/bazar-2026/bazar-2026-06.jpg", alt: "Vista ampia del parcheggio pieno di tavoli del bazar" },
+        { src: "/home/bazar-2026/bazar-2026-07.jpg", alt: "Tavolo con vassoi di cibo al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-08.jpg", alt: "Primo piano di vassoi di cibo coperti al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-09.jpg", alt: "Due volontari alla griglia" },
+        { src: "/home/bazar-2026/bazar-2026-10.jpg", alt: "Un volontario al tavolo dei condimenti" },
+        { src: "/home/bazar-2026/bazar-2026-11.jpg", alt: "Tavolo di carni e bevande in vendita al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-12.jpg", alt: "Tavolo di articoli per la casa in vendita al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-13.jpg", alt: "Un volontario che saluta al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-14.jpg", alt: "Un volontario che prepara l'attrezzatura sul prato" },
+        { src: "/home/bazar-2026/bazar-2026-15.jpg", alt: "Visitatori che osservano biciclette e articoli per la casa al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-16.jpg", alt: "Giocattoli e peluche in vendita su un tavolo" },
+        { src: "/home/bazar-2026/bazar-2026-17.jpg", alt: "Abiti e accessori esposti in vendita al bazar" },
+        { src: "/home/bazar-2026/bazar-2026-18.jpg", alt: "Scatole e borse di articoli in vendita al bazar" },
+      ],
     },
     schedule: {
       eyebrow: "Orario delle Messe",
@@ -422,18 +447,6 @@ export const itContent = {
       notes: [
         "Le Messe feriali riprenderanno venerdì 25 settembre",
         "Le Messe domenicali restano invariate: ore 9:00 (italiano) e ore 11:00 (francese)",
-      ],
-    },
-    {
-      title: "Grande bazar all'aperto",
-      date: "Sabato 12 settembre 2026",
-      time: "8:00 – 16:00",
-      location: "Église Sainte-Angèle, 5275 Lavoisier, Saint-Léonard",
-      description:
-        "Bazar parrocchiale all'aperto con tavoli di articoli in vendita. Tutti sono benvenuti a venire a curiosare.",
-      notes: [
-        "Data di pioggia: sabato 19 settembre",
-        "Tavoli in affitto per gli espositori: 25$ — chiamare il 514-998-5485 per prenotare",
       ],
     },
     {

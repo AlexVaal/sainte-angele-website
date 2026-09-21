@@ -5,6 +5,7 @@ import { ButtonLink } from "@/components/button-link";
 import { HomeFeatureCard } from "@/components/home-feature-card";
 import { InfoCard } from "@/components/info-card";
 import { PageSection } from "@/components/page-section";
+import { PhotoCarousel } from "@/components/photo-carousel";
 import { SectionHeading } from "@/components/section-heading";
 import { generateLocaleParams, getDictionary, type Locale } from "@/lib/i18n";
 import { buildPageMetadata } from "@/lib/page-metadata";
@@ -42,6 +43,10 @@ export default async function HomePage({
   const { home, site, common, schedule, volunteerRoles } = dictionary;
   const heroImage = resolvePublicImage(home.hero.image.src);
   const featuredEventImage = resolvePublicImage(home.events.featured.image.src);
+  const galleryImages = home.gallery.images.map((image) => ({
+    src: resolvePublicImage(image.src),
+    alt: image.alt,
+  }));
 
   return (
     <div className="site-shell space-y-8 sm:space-y-10">
@@ -177,6 +182,13 @@ export default async function HomePage({
           </div>
         </div>
       </PageSection>
+
+      <PhotoCarousel
+        eyebrow={home.gallery.eyebrow}
+        title={home.gallery.title}
+        description={home.gallery.description}
+        images={galleryImages}
+      />
 
       <PageSection id="schedule">
         <SectionHeading
