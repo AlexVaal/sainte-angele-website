@@ -46,7 +46,7 @@ export function PhotoCarousel({
       </div>
 
       <div className="relative mt-6 overflow-hidden rounded-[22px] border border-[rgba(109,79,61,0.12)] bg-[rgba(255,251,246,0.6)]">
-        <div className="relative aspect-[4/3] w-full sm:aspect-[16/9]">
+        <div className="relative aspect-[4/3] w-full bg-[rgba(73,52,40,0.9)] sm:aspect-[16/10]">
           {images.map((image, i) => (
             <Image
               key={image.src}
@@ -54,7 +54,7 @@ export function PhotoCarousel({
               alt={image.alt}
               fill
               priority={i === 0}
-              className={`object-cover object-center transition-opacity duration-300 ${
+              className={`object-contain object-center transition-opacity duration-300 ${
                 i === index ? "opacity-100" : "pointer-events-none opacity-0"
               }`}
               sizes="(min-width: 1024px) 60rem, 100vw"

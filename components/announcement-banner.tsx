@@ -12,6 +12,10 @@ export function AnnouncementBanner({
   title: string;
   items: readonly AnnouncementItem[];
 }) {
+  if (items.length === 0) {
+    return null;
+  }
+
   return (
     <section className="glass-panel section-card fade-up flex flex-col gap-4 border-l-4 border-l-[var(--wood)] px-6 py-6 sm:px-8">
       <div className="flex items-center gap-3">
